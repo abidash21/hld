@@ -1,0 +1,14 @@
+REST - Representational State Transfer
+API  - (Application Programming Interface) is a way for software applications to communicate
+
+Rest is set of guidelines not strict laws
+
+GET - read
+POST - create
+PUT - update(replace)
+PATCH - partial update(particular field)
+DELETE - remove data
+
+
+JSON(JavaScript Object Notation) -  is a lightweight data format used to store and exchange data between
+                                    a client (like browser/app) and a server.
