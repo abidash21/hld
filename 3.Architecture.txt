@@ -1,0 +1,24 @@
+Architecture: Internal design details for building the applications.
+
+1. Monolithic Architecure: 
+   All the application components and functionalities are built and deployed
+   as a single uint.
+   - single codebase
+   - Tightly Coupled components
+   - Shared Resources
+   - Centralised System
+
+
+Distributed Systems: Collection of multiple individual systems(including replicas)
+                     connected through a network that share resources, communicate 
+                     and coordinate to achieve common goals.
+
+2. Microservices Architecture:
+   Apporach to building application where each business capability is its own
+   service
+   - Independently deployed
+   - Loosely Coupled
+   - Modularisation
+
+# Microservices are a type of distributed system
+                    
