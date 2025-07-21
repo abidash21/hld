@@ -1,0 +1,22 @@
+Vertical Scaling
+1. Pros:
+- Easy implementation and management
+- Less power
+
+2. Cons:
+- Single Point of failure
+- Limited scaling
+- expensive
+
+
+Horizontal Scaling
+1.  Pros:
+- High Availability
+- Indefinite scaling
+- distributed system
+
+2. Cons:
+- complex setup and maintainance
+- Data Consistency
+- Latency
+
