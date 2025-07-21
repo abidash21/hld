@@ -1,0 +1,55 @@
+1. Availability
+   Monolithic architecture has less Availability because of single point of failure.
+   Microservice architecture has more because of high fault Tolerance.
+
+how to increase Availability?
+- Replication
+- Redundancy
+- distributed systems
+
+
+Redundancy- Duplication of nodes
+Replication- includes Redundancy, but involves the copying data from one node to another
+             or the synchronization of state between nodes.
+
+
+2. Consistency
+   When more than one client requests the system, for all such requests, it will be called
+   consistent when each client gets the same data. The data should always be 
+   consistent, regardless of who is accessing it.
+
+   *dirty read- when different clients gets different responses to their request 
+                due to some recnet update that has not been committed to all systems.
+
+
+Factors improving Consistency
+- improve Network Bandwidth
+- Stop the read(ex: bank)
+- Replication based on Distance aware strategies
+
+Types of Consistency:
+- Strong: system doesn't allow read operation unitl all the nodes with 
+           replicated data are updated.
+
+- Eventual: read request are not halted. Some users might receive old data but
+            but eventually all the data is updated to the latest data.
+
+- Weak: databses doesn't need to be in synchronization
+
+
+CAP Theorem
+C- Consistency
+A- Availability
+P- Partition Tolerance
+
+**It is possible to attain only two properties and the third would be
+  always compromised. The system requirements should define which two
+  properties should be chosen over the rest.
+
+
+CP: Bank
+AP: Social Media
+CA: centralized systems
+
+
+
