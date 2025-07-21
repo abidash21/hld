@@ -1,0 +1,21 @@
+latency: delay between a user's action and the system's response
+
+Monolithic-  computational delay 
+Microservice- computational delay + network delay
+
+how to reduce?
+1. Caching: Process of storing information for a set period of time on a computer
+2. CDN(content delivery network): Geographically distributed networks of proxy servers and
+                                  their objective is to serve content to users more quickly.
+3. Upgrade system hardwares
+
+Throughput: The volume of information transmitted through a system per unit time
+
+Throughput is more in Microservice architecture than Monolithic architecture because
+1. No limit on resources
+2. Load Balancer
+
+causes of low Throughput:
+1. latency
+2. Protocol overhead
+3. congestion
