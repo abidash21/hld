@@ -1,0 +1,21 @@
+Caching - Store frequently accessed data in a temporary storage area
+
+Types:
+1. In memory/local(ex: memcache)
+2. Distributed/Inhand cache(ex: reddis)
+
+- used for read intensive
+- static content
+
+1.Application server cache
+2.CDN - content delivery network(geographically located server)
+
+
+Cache is a small capacity memory,hence we need to remove data after a particular time
+Cache eviction strategies:
+1. LRU
+2. MRU
+3. LFU
+4. FIFO
+5. LIFO
+6. RR
