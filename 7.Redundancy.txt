@@ -1,0 +1,38 @@
+Redundancy: Duplication of nodes
+
+Types:
+1. Active Redundancy - Each unit is active and responding. Mulitple nodes connected to load balancer.
+                       Each unit receives equal load.
+
+2. Passive Redundancy - some nodes active other are not. During break down of active nodes, the passive nodes
+                        maintain availability by becoming active node
+
+
+Replication: Redundancy + synchronization
+
+Types:
+1. Active Replication: All nodes read and write
+2. Passive Replication: Primary node for write and other for read.
+
+*synchronous: If the changes are made to the master and slave at the same time
+*asynchronous: If changes are queued up and written later
+
+
+
+Load balancer: Process of efficient distribution of network traffic across all nodes of microservice architecture
+
+- Equall distribution over all nodes
+- health check(if node is not operational then,request is passed to another node that is up and running)
+
+challanges:
+1. Single Point of Failure(soln. add passive load balancer)
+
+Algorithms:
+1. Round Robin
+2. weighted round robin(for nodes with better resources)
+3. IP hash algo(random unbiased distribution)
+4. source IP hash(combines source and destination IP address for hash key)
+5. Least conncetion Algorithms
+6. Least Response Time
+
+*First 4 are static and last two are dynamic
